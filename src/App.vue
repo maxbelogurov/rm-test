@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <MyTest/>
+    <MyTest />
   </div>
 </template>
 
@@ -8,13 +8,11 @@
 import MyTest from "@/components/MyTest";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    MyTest
-  }
-}
+    MyTest,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
