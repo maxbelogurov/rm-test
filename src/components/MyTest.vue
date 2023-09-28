@@ -5,15 +5,12 @@
     <div class="multiselect">
       <multiselect
         v-model="value"
-        :options="[options]"
+        :options="options"
         :searchable="true"
         :close-on-select="true"
         :show-labels="false"
         placeholder="Pick a value"
       >
-        <options v-for="(data, index) in options" :key="data.id">
-          "{{ index }}" ({{ data.timezone }})
-        </options>
       </multiselect>
       <div class="select-result" ref="selected">Ваш город: {{ value }}</div>
     </div>
@@ -34,8 +31,12 @@ export default {
   data() {
     return {
       value: "",
-      options: cityTimeZones,
+      options: [cityTimeZones],
     };
+  },
+
+  methods: {
+    ///
   },
 };
 </script>

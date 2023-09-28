@@ -31,5 +31,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Prettier write
 
 ```
-npx prettier . --write   
+npx prettier . --write
 ```
