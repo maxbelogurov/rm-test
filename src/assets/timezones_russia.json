@@ -1,0 +1,370 @@
+{
+  "Ангарск": {
+    "winter_summer_transition": false,
+    "timezone": "+08:00"
+  },
+  "Архангельск": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Астрахань": {
+    "winter_summer_transition": false,
+    "timezone": "+04:00"
+  },
+  "Барнаул": {
+    "winter_summer_transition": false,
+    "timezone": "+07:00"
+  },
+  "Белгород": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Бийск": {
+    "winter_summer_transition": false,
+    "timezone": "+07:00"
+  },
+  "Благовещенск": {
+    "winter_summer_transition": false,
+    "timezone": "+09:00"
+  },
+  "Братск": {
+    "winter_summer_transition": false,
+    "timezone": "+08:00"
+  },
+  "Брянск": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Великий Новгород": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Владивосток": {
+    "winter_summer_transition": false,
+    "timezone": "+10:00"
+  },
+  "Владикавказ": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Владимир": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Волгоград": {
+    "winter_summer_transition": false,
+    "timezone": "+04:00"
+  },
+  "Вологда": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Воронеж": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Грозный": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Дзержинск": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Екатеринбург": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Иваново": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Ижевск": {
+    "winter_summer_transition": false,
+    "timezone": "+04:00"
+  },
+  "Иркутск": {
+    "winter_summer_transition": false,
+    "timezone": "+08:00"
+  },
+  "Йошкар-Ола": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Казань": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Калининград": {
+    "winter_summer_transition": false,
+    "timezone": "+02:00"
+  },
+  "Калуга": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Кемерово": {
+    "winter_summer_transition": false,
+    "timezone": "+07:00"
+  },
+  "Киров": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Комсомольск-на-Амуре": {
+    "winter_summer_transition": false,
+    "timezone": "+10:00"
+  },
+  "Кострома": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Краснодар": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Красноярск": {
+    "winter_summer_transition": false,
+    "timezone": "+07:00"
+  },
+  "Курган": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Курск": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Липецк": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Магнитогорск": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Махачкала": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Минеральные Воды": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Москва": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Мурманск": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Набережные Челны": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Нальчик": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Нижневартовск": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Нижнекамск": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Нижний Новгород": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Нижний Тагил": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Новокузнецк": {
+    "winter_summer_transition": false,
+    "timezone": "+07:00"
+  },
+  "Новороссийск": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Новосибирск": {
+    "winter_summer_transition": false,
+    "timezone": "+07:00"
+  },
+  "Норильск": {
+    "winter_summer_transition": false,
+    "timezone": "+07:00"
+  },
+  "Омск": {
+    "winter_summer_transition": false,
+    "timezone": "+06:00"
+  },
+  "Орёл": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Оренбург": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Орск": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Пенза": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Пермь": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Петрозаводск": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Прокопьевск": {
+    "winter_summer_transition": false,
+    "timezone": "+07:00"
+  },
+  "Псков": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Ростов-на-Дону": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Рязань": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Самара": {
+    "winter_summer_transition": false,
+    "timezone": "+04:00"
+  },
+  "Санкт-Петербург": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Саранск": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Саратов": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Севастополь": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Симферополь": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Смоленск": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Сочи": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Ставрополь": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Старый Оскол": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Стерлитамак": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Сургут": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Сыктывкар": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Таганрог": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Тамбов": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Тверь": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Тольятти": {
+    "winter_summer_transition": false,
+    "timezone": "+04:00"
+  },
+  "Томск": {
+    "winter_summer_transition": false,
+    "timezone": "+07:00"
+  },
+  "Тула": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Тюмень": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Улан-Удэ": {
+    "winter_summer_transition": false,
+    "timezone": "+08:00"
+  },
+  "Ульяновск": {
+    "winter_summer_transition": false,
+    "timezone": "+04:00"
+  },
+  "Уфа": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Хабаровск": {
+    "winter_summer_transition": false,
+    "timezone": "+10:00"
+  },
+  "Чебоксары": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Челябинск": {
+    "winter_summer_transition": false,
+    "timezone": "+05:00"
+  },
+  "Череповец": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Чита": {
+    "winter_summer_transition": false,
+    "timezone": "+09:00"
+  },
+  "Шахты": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  },
+  "Якутск": {
+    "winter_summer_transition": false,
+    "timezone": "+09:00"
+  },
+  "Ярославль": {
+    "winter_summer_transition": false,
+    "timezone": "+03:00"
+  }
+}
