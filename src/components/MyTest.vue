@@ -8,14 +8,12 @@
         :searchable="true"
         :close-on-select="false"
         :show-labels="false"
-        placeholder="Pick a value"
-      >
+        class="form-select">
         <option
           v-for="(data, index) in options"
           :key="data.id"
-          class="optionStyle"
-        >
-          "{{ index }}" ({{ data.timezone }})
+          class="optionStyle">
+            "{{ index }}" ({{ data.timezone }})
         </option>
       </select>
       <div class="select-result" ref="selected">Ваш город: {{ value }}</div>
@@ -25,8 +23,6 @@
 
 <script>
 import cityTimeZones from "@/assets/timezones_russia.json";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-vue/dist/bootstrap-vue.css";
 
 export default {
   name: "MyTest",
