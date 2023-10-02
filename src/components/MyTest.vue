@@ -1,22 +1,15 @@
 <template>
   <div>
-    <h1 class="page-title">Выберите ваш город</h1>
+    <h1 class="page-title">Блоки из городов</h1>
 
-    <div class="select">
-      <select
-        v-model="value"
-        :searchable="true"
-        :close-on-select="false"
-        :show-labels="false"
-        class="form-select">
-        <option
-          v-for="(data, index) in options"
-          :key="data.id"
-          class="optionStyle">
-            "{{ index }}" ({{ data.timezone }})
-        </option>
-      </select>
-      <div class="select-result" ref="selected">Ваш город: {{ value }}</div>
+    <div class="block-cards">
+      <div 
+        v-for="(data, index) in paginatedList" 
+        :key="data.id"  
+        :load="log(data)"
+      >
+            {{ index }} 
+      </div>
     </div>
   </div>
 </template>
@@ -28,11 +21,22 @@ export default {
   name: "MyTest",
   data() {
     return {
-      value: "",
       options: cityTimeZones,
     };
   },
-};
+  methods: {
+    log(data) {
+      console.log(data)
+    }
+  },
+  computed: { 
+    paginatedList(){
+      return Object.fromEntries(
+        Object.entries(this.options).slice(0, 5)
+        )
+    }
+ }
+}
 </script>
 
 <style scoped>
@@ -43,19 +47,10 @@ body {
   text-align: center;
   margin-top: 24px;
 }
-.select-result {
-  text-align: center;
-  font-size: 24px;
-  margin-top: 24px;
-}
-
-select {
-  margin: auto;
-  padding-left: 12px;
-  width: 30em;
-  height: 3em;
-  display: block;
-  border: 1px solid lightgrey;
-  margin-top: 24px;
-}
+.block-cards {
+  width:150px;
+  margin: 24px;
+  padding: 24px;
+  border: 2px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;}
 </style>
