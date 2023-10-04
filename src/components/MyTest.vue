@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <h1 class="h1">Блоки из городов</h1>
+    <h1 class="h1 text-center mt-4 mb-4">Блоки из городов</h1>
     <div class="row">
-      <div v-for="(data, index) in options"
+      <div v-for="(data, index) in allCities"
            :key="index"
            class="col-12 col-md-3 col-lg-2">
         <div class="card mb-3">
@@ -17,27 +17,10 @@
 </template>
 
 <script>
-import cityTimeZones from "@/assets/timezones_russia.json";
-
+import { mapGetters } from "vuex";
 export default {
   name: "MyTest",
-  data() {
-    return {
-      options: cityTimeZones,
-    };
-  },
-  methods: {
-    log(data) {
-      console.log(data)
-    }
-  },
-  computed: {
-    paginatedList() {
-      return Object.fromEntries(
-        Object.entries(this.options).slice(0, 5)
-        )
-    }
- }
+  computed: mapGetters(['allCities'])
 }
 </script>
 
