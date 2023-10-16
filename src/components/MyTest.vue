@@ -1,61 +1,29 @@
 <template>
-  <div>
-    <h1 class="page-title">Выберите ваш город</h1>
-
-    <div class="select">
-      <select
-        v-model="value"
-        :searchable="true"
-        :close-on-select="false"
-        :show-labels="false"
-        class="form-select">
-        <option
-          v-for="(data, index) in options"
-          :key="data.id"
-          class="optionStyle">
-            "{{ index }}" ({{ data.timezone }})
-        </option>
-      </select>
-      <div class="select-result" ref="selected">Ваш город: {{ value }}</div>
+  <div class="container">
+    <h1 class="h1 text-center mt-4 mb-4">Блоки из городов</h1>
+    <div class="row">
+      <div v-for="(data, index) in allCities"
+           :key="index"
+           class="col-12 col-md-3 col-lg-2">
+        <div class="card mb-3">
+          <div class="card-body">
+            {{ index }}<br>
+            <span class="text-muted">{{ data.timezone }}</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import cityTimeZones from "@/assets/timezones_russia.json";
-
+import { mapGetters } from "vuex";
 export default {
   name: "MyTest",
-  data() {
-    return {
-      value: "",
-      options: cityTimeZones,
-    };
-  },
-};
+  computed: mapGetters(['allCities'])
+}
 </script>
 
 <style scoped>
-body {
-  margin: 24px;
-}
-.page-title {
-  text-align: center;
-  margin-top: 24px;
-}
-.select-result {
-  text-align: center;
-  font-size: 24px;
-  margin-top: 24px;
-}
 
-select {
-  margin: auto;
-  padding-left: 12px;
-  width: 30em;
-  height: 3em;
-  display: block;
-  border: 1px solid lightgrey;
-  margin-top: 24px;
-}
 </style>
